@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}{% trans "Loan Request" %}{% endblock %}
+{% block content %}
+<h1>Business Loan Request</h1>
+<table>
+    <form method='post' action=''>{% csrf_token %}
+        {{ form }}
+        <tr><td></td><td><input type="submit" value="{% trans "Submit" %}" /></td>
+    </form>
+</table>
+{% endblock %}

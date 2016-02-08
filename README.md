@@ -1,1 +1,1 @@
-# django_case_study1
+## Simple Django case study where a user registers and submits a few details
